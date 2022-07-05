@@ -1,0 +1,43 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.top-banner {
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+}
+
+.top-banner h1 {
+    font-size: 90px;
+    color: white;
+    font-weight: bolder;
+}
+
+.top-banner p {
+    color: rgb(234, 229, 229);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-color {
+    background-color: rgb(231, 18, 89);
+    padding: 15px 40px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
