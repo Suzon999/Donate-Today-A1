@@ -13,21 +13,23 @@ body {
 
 
 .top-banner {
-    background-image: url(images/donation5.jpg);
+    background-image: url(images/donation7.jpg);
     background-repeat: no-repeat;
     height: 700px;
     background-size: cover;
     text-align: center;
+
 }
 
 .top-banner h1 {
     font-size: 90px;
     color: white;
     font-weight: bolder;
+    padding-top: 150px;
 }
 
 .top-banner p {
-    color: rgb(234, 229, 229);
+    color: white;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 60px;
@@ -58,6 +60,7 @@ body {
     font-size: 20px;
     color: gray;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .donate-amount {
@@ -83,8 +86,9 @@ body {
 
 #mark-amount {
 
-    background-color: rgb(231, 18, 89);
+    background-color: rgb(190, 139, 156);
     border: 2px solid red;
+    color: white;
 }
 
 .other-amount {
@@ -114,7 +118,7 @@ hr {
     font-size: 20px;
     color: gray;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .plan-container {
@@ -166,6 +170,10 @@ hr {
     width: 90%;
 }
 
+.about-me {
+    margin-bottom: 100px;
+}
+
 .about-me h1 {
     text-align: center;
     font-size: 60px;
@@ -180,6 +188,7 @@ hr {
 .contant p {
     margin-bottom: 40px;
     font-size: 20px;
+    color: gray;
 }
 
 .contant h3 {
@@ -193,4 +202,54 @@ hr {
 
 .colour {
     color: rgb(231, 18, 89);
+}
+
+.update-details {
+    text-align: center;
+}
+
+.get-update h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.get-update p {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.email-option {
+
+    padding: 80px 40px;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+#input {
+    background-color: rgb(149, 145, 146);
+    padding: 15px 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    background-color: black;
+    padding: 60px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer h2 {
+    font-size: 30px;
+    color: rgb(240, 66, 18);
+    margin-bottom: 20px;
 }
